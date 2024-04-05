@@ -70,37 +70,40 @@
 <h2>Produtos Recomendados:</h2>
 
 <nav class="prod_recomendados">
-       <figure class="racao_hills">
-        <img src="imagens/racaoh.png" alt="ração hills">
-        <p>Ração Hills 310R$</p>
-        <p> (ou 2 vezes 155R$) </p>
+    <figure class="racao_hills">
+        <img class="prodimg" src="imagens/racaoh.png" alt="ração hills">
+        <p class="prodnome">Ração Hills </p>
+        <p class="prodpreco">  155R$ </p>
+        <button class="botao-comprar" onclick="addToCart(event)">Comprar</button> <!-- Botão de Compra -->
     </figure>
-       <figure class="racao_cat">
-            <img src="imagens/cat.png" alt="ração cats">
-            <p>Ração Golden 156,90R$</p>
-            <p> (ou 3 vezes 52R$) </p>
-        </figure>
+    
+    <figure class="racao_cat">
+        <img class="prodimg" src="imagens/cat.png" alt="ração cats">
+        <p class="prodnome">Ração Golden </p>
+        <p class="prodpreco">  512R$ </p>
+        <button class="botao-comprar" onclick="addToCart(event)">Comprar</button> <!-- Botão de Compra -->
+    </figure>
 
-       <figure class="racao_golden">
-                <img src="imagens/dog_golden.png" alt="ração golden">
-                <p>Ração Golden 166,90R$</p>
-                <p> (ou 2 vezes 83,45R$) </p>
-            </figure>
-        
-            
-        <figure class="antipugas">
-                <img src="imagens/antipugas.png" alt="shampoo antipugas">
-                <p>Shampoo Antipulgas Ibapet</p>
-                <p>39,90R$</p>
-            </figure>
+    <figure class="racao_golden">
+        <img class="prodimg" src="imagens/dog_golden.png" alt="ração golden">
+        <p class="prodnome">Ração Golden </p>
+        <p class="prodpreco">  83,45R$ </p>
+        <button class="botao-comprar" onclick="addToCart(event)">Comprar</button> <!-- Botão de Compra -->
+    </figure>
+    
+    <figure class="antipugas">
+        <img class="prodimg" src="imagens/antipugas.png" alt="shampoo antipugas">
+        <p class="prodnome" >Shampoo Antipulgas Ibapet</p>
+        <p class="prodpreco">39,90R$</p>
+        <button class="botao-comprar"  onclick="addToCart(event)">Comprar</button> <!-- Botão de Compra -->
+    </figure>
 
-        <figure class="whiskas">
-                    <img src="imagens/whiskas.png" alt="Ração whiskas">
-                    <p>Ração whiskas 3,90R$</p>
-                
-           </figure>
-
-
+    <figure class="whiskas">
+        <img class="prodimg" src="imagens/whiskas.png" alt="Ração whiskas">
+        <p class="prodnome">Ração whiskas </p>
+        <p class="prodpreco">39,90R$</p>
+        <button class="botao-comprar" onclick="addToCart(event)">Comprar</button> <!-- Botão de Compra -->
+    </figure>
 </nav>
 
 <nav class="formulario">
@@ -125,6 +128,6 @@
   <nav class="copy">
     <p>© 2024 AmaPep. Todos os direito reservados</p>
   </nav>
-
+  <script src="pet.js"></script>
 </body>
 </html>

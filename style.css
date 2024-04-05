@@ -215,3 +215,50 @@ nav a {
     font-size: 15px;
    
 }
+.imgcarr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        
+
+}
+.voltar{
+    text-align: center;
+    font-size: 17px;
+}
+.botao-voltar {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 16px; 
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px; 
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    max-width: 200px; 
+}
+.botao-voltar:hover {
+    background-color: #45a049;
+}
+
+.botao-comprar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adicionando transição de cor */
+}
+
+.botao-comprar:hover {
+    background-color: #45a049;
+}
