@@ -1,0 +1,3 @@
+[submodule "petshop"]
+	path = petshop
+	url = https://github.com/henrique27k/petshop.git
